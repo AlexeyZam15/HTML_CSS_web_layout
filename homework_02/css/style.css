@@ -1,0 +1,80 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0.5rem;
+}
+
+@font-face {
+    font-family: Mont, Verdana, Geneva, Tahoma, sans-serif;
+    src: url(../fonts/Montserrat-Light.ttf);
+    font-weight: 300;
+    font-size: 15px;
+}
+
+:root{
+    --menu_other_color: cornflowerblue;
+    --menu_self_color: black;
+    --color_link_hover: #7E26A5;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu_element {
+    font-size: 16px;
+    line-height: 20px;
+    padding-right: 0.5rem;
+}
+
+.menu_element__other {
+    color: var(--menu_other_color);
+}
+
+.menu_element__other:hover {
+    color: var(--color_link_hover);
+}
+
+.menu_element__self {
+    color: var(--menu_self_color);
+}
+
+.black: {
+    color: black;
+}
+
+.heading1 {
+    margin-top: 0.5rem;
+    font-family: Mont, sans-serif;
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+.heading2 {
+    font-family: Mont, sans-serif;
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
+
+.paragraph1 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987
+}
+
+.my_card {
+    display: table-row;
+}
+
+.my_card-body {
+    padding-left: 0rem;
+}
