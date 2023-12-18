@@ -1,0 +1,138 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0.5rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Mont, Verdana, Geneva, Tahoma, sans-serif;
+    src: url(../fonts/Montserrat-Light.ttf);
+    font-weight: 300;
+    font-size: 15px;
+}
+
+:root{
+    --color_link_hover: #7E26A5;
+}
+
+.navigation {
+    display: flex;
+    gap: 35px;
+    margin: 10px 10px 0px 10px;
+    padding: 10px 10px 0px 10px;
+}
+
+.navigation__link {
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+.navigation__link_purple:hover {
+    color: var(--color_link_hover);
+}
+
+.navigation__link_black {
+    color: black;
+}
+
+.paragraph {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987
+}
+
+.main_heading2 {
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
+
+.request_input {
+    width: 230px;
+    height: 30px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.request_button {
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.main_div1 {
+    margin: 10px 10px 0px 10px;
+    padding: 0px 10px 0px 10px;
+}
+
+.main_div2 {
+    margin: 0px 20px 0px 20px;
+    padding: 0px 20px 0px 20px;
+}
+
+.request_form_div {
+    margin: 0px 10px 0px 10px;
+    padding: 0px 10px 0px 10px;
+}
+
+.request_button_submit {
+}
+
+.request_button_reset {
+    width: 130px;
+}
+
+
+.space_div2 {
+    margin-top: -1.3rem;
+}
+
+.heading1 {
+    font-family: Mont, sans-serif;
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+.nav-pills {
+    --bs-nav-pills-border-radius: var(--bs-border-radius);
+    --darkreader-text--bs-nav-pills-link-active-color: #e8e6e3;
+    --darkreader-bg--bs-nav-pills-link-active-bg: #0250c4;
+}
+
+.nav {
+    --bs-nav-link-padding-x: 1rem;
+    --bs-nav-link-padding-y: 0.5rem;
+    --darkreader-text--bs-nav-link-color: var(--darkreader-text--bs-link-color);
+    --darkreader-text--bs-nav-link-hover-color: var(--darkreader-text--bs-link-hover-color);
+    --darkreader-text--bs-nav-link-disabled-color: var(--darkreader-text--bs-secondary-color);
+    list-style-image: initial;
+}
+
+.img_student {
+    margin-top: 0.7rem
+}
+
+.request_element {
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+}
