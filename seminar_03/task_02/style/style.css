@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: #020a18;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    border-radius: 0.5rem;
+    backdrop-filter: blur(5rem);
+    /*opacity: 0.02;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.20) -41.9%, #FFF 260.24%);
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.1);*/
+}
+
+.top__menu {
+    line-height: normal;
+}
+
+.nav__menu {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.link__menu {
+    list-style-type: none;
+    padding: 1.5rem 0 0 0;
+    font-size: 1rem;
+}
+
+.link__menu a {
+    color: #FFF;
+}
+
+.top__content {
+    padding: 6.5rem 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6.5rem;
+    flex-shrink: 0;
+}
+
+.text__h5 {
+    color: #3A68B8;
+    font-size: 0.9rem;
+    line-height: 160%; /* 28.8px */
+    text-transform: uppercase;
+}
+
+.text__h2 {
+    color: var(--ffffff, #FFF);
+    font-size: 2.75rem;
+    font-weight: 800;
+    line-height: 130%; /* 71.5px */
+    width: 32rem;
+    padding: 0.5rem 0 2rem 0;
+}
+
+.text__top__main {
+    width: 558px;
+    color: #FFF;
+    line-height: 160%; /* 28.8px */
+    opacity: 0.7;
+    padding-bottom: 3.25rem;
+}
+
+.top__btns .top__btn {
+    vertical-align: middle;
+
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 1rem;
+    line-height: normal;
+    display: inline-flex;
+    padding: 0.65rem 1.5rem;
+    align-items: flex-start;
+    gap: 0.5rem;
+    border-radius: 0.25rem;
+    background: #3A68B8;
+    /*border: none;*/
+    border-color: #020a18;
+}
+
+.top__btns .top__btn__img img {
+    height: 1rem;
+    width: auto;
+    padding: 0 0.1rem;
+}
+.top__logo {
+    margin-top: 10.6rem;
+    gap: 3.55rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top__info {
+    width: 29rem;
+/*    padding-top: 2rem;*/
+    /*height: 415px;*/
+}
